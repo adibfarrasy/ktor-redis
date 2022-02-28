@@ -8,9 +8,9 @@ import redis.clients.jedis.Protocol
 fun configurePersistence(): Jedis {
 
     // TODO: extract parameters to configuration
-    val HOSTNAME = "redis-19703.c295.ap-southeast-1-1.ec2.cloud.redislabs.com"
-    val USER = "default"
-    val PASSWORD = "VghI0ofg0QEEbWHjDl4CfBOReLlVRr31"
+    val HOSTNAME = ""
+    val USER = ""
+    val PASSWORD = ""
 
     val jedisPool = JedisPool(
         JedisPoolConfig(),
